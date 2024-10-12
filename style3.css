@@ -1,0 +1,49 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  flex: 1 1 calc(33.333% - 40px);
+  margin-bottom: 20px;
+}
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+.navbar-brand img {
+  width: 50px;
+  height: 50px;
+}
+.marquee {
+  background-color: #1e15d3;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+footer .contact-info {
+  margin-top: 20px;
+}
+footer .map {
+  margin-top: 20px;
+}
+footer .footer-logo {
+  text-align: left; /* Align logo to the left */
+}
+footer .footer-logo img {
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 100%;
+  }
+  footer .footer-logo {
+    text-align: center; /* Center logo on small devices */
+  }
+}
+.marquee {
+  font-family: hanuman;
+  color: aliceblue;
+}
